@@ -1,0 +1,241 @@
+{% extends 'welcome/layout.html' %}
+{% load staticfiles %}
+{% block content %}
+
+<div class="dropdown">
+    <button class="btn btn-default dropdown-toggle" type="button" id="dropdownMenu1" data-toggle="dropdown" aria-haspopup="true" aria-expanded="true">
+      Our Products
+      <span class="caret"></span>
+    </button>
+    <ul class="dropdown-menu" aria-labelledby="dropdownMenu1">
+      <li><a href="#coconut">Coconut/Tender Coconuts</a></li>
+      <li><a href="#moringa">Moringa</a></li>
+      <li><a href="#gingelly">Gingelly/Sesame Oil</a></li>
+      <li><a href="#peanut">Peanuts/Peanut oil</a></li>
+      <li><a href="#onion">Onions</a></li>
+      <li><a href="#tomato">Tomatoes</a></li>
+      <li><a href="#tapioca">Tapioca</a></li>
+      <li><a href="#milk">Milk</a></li>
+    </ul>
+</div>
+
+<div class="container">
+
+    <section id="coconut">
+      <div style="background-color: #9b8b3e;" class="row featurette coconut-div">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">About YBS's <span class="text-muted" style="color:#c6c4ca;">Coconut.</span></h2>
+            <p class="lead">
+
+                Our Coconuts are highly nutritious and rich in fibre, vitamins C, E, B1, B3, B5 and B6 and minerals including iron, selenium, sodium, calcium, magnesium and phosphorous. Unlike cow's milk, coconut milk is lactose free so can be used as a milk substitute by those with lactose intolerance. It is a popular choice with vegans and makes a great base for smoothies, milkshakes or as a dairy alternative in baking.
+                Coconuts are one of those foods that oscillate between the 'good' food and 'bad' food camps. Coconut milk, especially the lower fat variety, can be used in moderation (1-2 times per week).
+
+              </p>
+              <ul class="benefits">
+                  <li><span>Helps Prevent Obesity</span></li>
+                  <li><span>Improves Heart Health</span></li>
+                  <li><span>High in Dietary Fiber</span></li>
+                  <li><span>Low Glycemic Index</span></li>
+                  <li><span>Improves Digestion</span></li>
+                  <li><span>No Trans-Fats, is Gluten-Free</span></li>
+              </ul>
+            </div>
+          <div class="col-md-5">
+              <img sourc="{% static 'welcome/images/coconut_nutrition.jpg' %}" caption="Coconuts Nutrition" class="featurette-image img-responsive center-block coconut_img myImg" src="{% static 'welcome/images/coconuts.jpg' %}">
+          </div>
+      </div>
+    </section>
+
+    <hr class="featurette-divider">
+    
+    <section id="moringa">
+      <div style="background-color: #77a35b;" class="row featurette moringa-div">
+          <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">About YBS's <span class="text-muted" style="color:#c6c4ca;">Moringa.</span></h2>
+              <p class="lead">
+                It is widely hailed as superfood.
+                Moringa oleifera is a fast-growing tree native to South Asia and now found throughout the tropics. Its leaves have been used as part of traditional medicine for centuries, and the Ayurvedic system of medicine associates it with the cure or prevention of about 300 diseases.
+                  100grams of moringa has the power of
+              </p>
+            <ul class="benefits">
+                  <li><span>9 times the protein of yogurt</span></li>
+                  <li><span>10 times the vitamin A of carrots</span></li>
+                  <li><span>15 times the potassium of bananas</span></li>
+                  <li><span>17 times the calcium of milk</span></li>
+                  <li><span>12 times the vitamin C of oranges</span></li>
+                  <li><span>25 times the iron of spinach</span></li>
+              </ul>
+          </div>
+          <div class="col-md-5 col-md-pull-7">
+            <img id="myImg" sourc="{% static 'welcome/images/moringa_nutrition.JPG' %}" caption="Moringa Nutrition" class="featurette-image img-responsive center-block moringa_img" src="{% static 'welcome/images/moringa.jpg' %}">
+          </div>
+        </div>
+    </section>
+    
+    <hr class="featurette-divider">
+    
+    <section id='gingelly'>
+      <div style="background-color: #e5ebac;" class="row featurette gingelly-div">
+          <div class="col-md-7">
+            <h2 class="featurette-heading">About YBS's <span class="text-muted">Gingelly/Sesame Oil.</span></h2>
+            <p class="lead">
+                Gingelly oil is another name for sesame oil. It's commonly used in cooking, just like vegetable oil and olive oil. Practitioners of both Western medicine and the Indian system of Ayurveda recognize significant health benefits in gingelly oil. You may find it worth your while to use it for all your edible oil needs and all your skin care needs as well. It is greatly aids weight reduction. Some of the benefits of gingelly oil are listed below
+              </p>
+              <ul class="benefits">
+                  <li><span>Promoting bone health</span></li>
+                  <li><span>Lowering blood pressure</span></li>
+                  <li><span>Preventing cancer</span></li>
+                  <li><span>Iron deficiency anemia</span></li>
+                  <li><span>Promoting Healthy skin</span></li>
+                  <li><span>Preventing constipation</span></li>
+              </ul>
+            </div>
+          <div class="col-md-5">
+              <img class="featurette-image img-responsive center-block gingelly_img" src="{% static 'welcome/images/sesame.jpg' %}">
+          </div>
+      </div>
+    </section>
+
+    <hr class="featurette-divider">
+    
+    <section id="peanut">
+       <div style="background-color: #9da589;" class="row featurette peanut-div">
+          <div class="col-md-7 col-md-push-5">
+            <h2 class="featurette-heading">About YBS's <span class="text-muted" style="color:#c6c4ca;">Peanut.</span></h2>
+              <p class="lead">
+                Unlike many other vegetable oils, peanut oil is actually free of any cholesterol, which is one of the major contributing factors to complicated heart conditions such asatherosclerosis, which is basically clogging of the arteries. Since cooking oil is used in many different ways, eliminating this dangerous cholesterol from your body can help prevent a variety of health complications. Furthermore, not only does peanut oil lack cholesterol, it can actually reduce your current levels of cholesterol due to the presence of plant sterols. These phytosterols actually compete for cholesterol absorption in the stomach and gut, which can lower your cholesterol levels by 10-15%! Other benefits are
+              </p>
+            <ul class="benefits">
+                  <li><span>As a massage oil</span></li>
+                  <li><span>To get rid of acne, mix a few drops of peanut oil with two to three drops of lime juice</span></li>
+                  <li><span>To treat dandruff</span></li>
+                  <li><span>To moisturize your lips</span></li>
+              </ul>
+          </div>
+          <div class="col-md-5 col-md-pull-7">
+            <img class="featurette-image img-responsive center-block peanut_img" src="{% static 'welcome/images/peanut.jpg' %}">
+          </div>
+        </div>
+    </section>
+    
+    <hr class="featurette-divider">
+    
+    <section id="onion">
+      <div style="background-color: #d3485f;" class="row featurette onion-div">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">About YBS's <span class="text-muted" style="color:#c6c4ca;">Onion.</span></h2>
+          <p class="lead">
+             The humble onion is found in every kitchen, but its curative powers make it an important medicinal plant too. Like garlic, it is a member of the lily family. There can be no doubting the power of the juices contained in onions; anyone who has ever sliced one and shed a tear is only too aware that they hold something special. Quite apart from its medicinal properties the onion is simply delicious. It forms the basis of so many dishes - whether raw, sautéed, baked, steamed or boiled, that it would be difficult to imagine the cuisine of any country without it.
+
+            </p>
+            <ul class="benefits">
+                <li><span>Prevents stomach cancer</span></li>
+                <li><span>Treating cardiovascular disease</span></li>
+                <li><span>Used for cooking</span></li>
+                <li><span>Reduce lung tightness for the people in asthma</span></li>
+            </ul>
+          </div>
+         
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block onion_img" src="{% static 'welcome/images/onions.jpg' %}">
+        </div>
+      </div>
+    </section>
+
+    <hr class="featurette-divider">
+    
+    <section id="tomato">
+      <div style="background-color: #c20a00;" class="row featurette tomato-div">
+        <div class="col-md-7 col-md-push-5">
+          <h2 class="featurette-heading" style="color:#c6c4ca;" >About YBS's <span class="text-muted">Tomato.</span></h2>
+            <p style="color:#c6c4ca;" class="lead">
+              Tomato is considered both, a fruit and vegetable and forms an integral part of cuisines all across the globe, especially in the Mediterranean region. Daily consumption of tomatoes provides a great boost to health, along with improving the flavor of food. You find tomatoes in countless different foods, including pastas, pizzas, ketchup, various beverages, and as an included flavor element in dishes from breakfast to dinner. Tomatoes are relatively easy to cultivate and grow very quickly, making them a quickly replaceable food source, which is a big reason why it is a staple food for many nations.
+            </p>
+          <ul style="color:#c6c4ca;" class="benefits">
+                <li><span>Cardiovascular Support</span></li>
+                <li><span>Supports Bone Health</span></li>
+                <li><span>Anti-Cancer Benefits</span></li>
+                <li><span>Prevent Eye Diseases</span></li>
+                <li><span>Protect From Free Radicals</span></li>
+                <li><span>Less Fat Content</span></li>
+            </ul>
+        </div>
+        <div class="col-md-5 col-md-pull-7">
+          <img class="featurette-image img-responsive center-block tomato_img" src="{% static 'welcome/images/tomatoes.jpg' %}">
+        </div>
+      </div>
+    </section>
+    
+    <hr class="featurette-divider">
+    
+    <section id="tapioca">
+      <div style="background-color: #b48d85;" class="row featurette tapioca-div">
+        <div class="col-md-7">
+          <h2 class="featurette-heading">About YBS's <span class="text-muted" style="color:#c6c4ca;">Tapioca.</span></h2>
+          <p class="lead">
+             Tapioca, most commonly used in pudding, is a starch made from the root of the cassava plant. It can be purchased as granules, flakes and powders, although it's most commonly available in the form of little round balls. You can make savory and sweet dishes with tapioca, or simply use it as a thickening agent. Naturally low in fat and high in carbohydrates, tapioca can be used in place of arrowroot, cornstarch or flour to thicken sauces and soups.
+
+            </p>
+            <ul class="benefits">
+                <li><span>Healthy Carbs and fats</span></li>
+                <li><span>Gluten free</span></li>
+                <li><span>Low sodium content</span></li>
+                <li><span>Rich in iron</span></li>
+            </ul>
+          </div>
+         
+        <div class="col-md-5">
+            <img class="featurette-image img-responsive center-block tapioca_img" src="{% static 'welcome/images/tapioca.jpg' %}">
+        </div>
+      </div>
+    </section>
+
+    <hr class="featurette-divider">
+
+    <section id="milk">
+        <div style="background-color: #c6c4ca;" class="row featurette milk-div">
+            <div class="col-md-7 col-md-push-5">
+              <h2 class="featurette-heading">About YBS's <span class="text-muted">Milk.</span></h2>
+                <p class="lead">
+                    In YBS Organic Farms, we dont mechanize anything that is related to animals. We get raw milk from cows directly from the madi by our hands. We dont use machines to get milk from them and we dont process it. Milk directly from the cow and consumed within hours is the healthiest milk we can drink ever. 
+                     Decades of scientific research have substantiated the many health benefits associated with milk, including increasing bone health, lowering blood pressure and boosting immunity. When taking into account the numerous health benefits milk and dairy products offer, the inexpensive cost per serving and the amount of nutrients packed in each serving, milk and milk products are an essential part of a healthy diet. There is no other single food or beverage that provides the same irreplaceable package of nutrients/components, with its unique interactions, as provided by milk.
+                </p>
+                <ul class="benefits">
+                    <li><span>Increases Bone health due to the richness in calcium</span></li>
+                    <li><span>Phosphorous in milk gives us healthy teeth</span></li>
+                    <li><span>Controls blood pressure</span></li>
+                    <li><span>Reduces the risk of Type 2 Diabetes</span></li>
+                    <li><span>Hydration of our body</span></li>
+                </ul>
+            </div>
+            <div class="col-md-5 col-md-pull-7">
+              <img class="featurette-image img-responsive center-block milk_img" src="{% static 'welcome/images/milk.jpg' %}">
+            </div>
+          </div>
+    </section>
+    
+    <hr class="featurette-divider">        
+</div>    
+
+
+
+<script type="text/javascript">
+	       
+    $(window).load(function() {
+
+      $('.row').each(function() {
+        var text = $(this).find('.col-md-7');
+        var textHt = text.height();
+        var img = $(this).find('.featurette-image');
+        img.height(textHt);
+      });
+
+       $( ".dropdown" ).draggable({
+            cancel: false,
+        });
+    });
+
+</script>
+    
+
+{% endblock %}
