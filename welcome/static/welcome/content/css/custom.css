@@ -571,6 +571,11 @@ transition: width 0.5s ease, height 0.5s ease 0.5s, border-top-right-radius 0.1s
 }
 
 
+.featurette-divider {
+    color: red;
+}
+
+
 
 
 
