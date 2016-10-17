@@ -25,8 +25,8 @@ def flowers(request):
 	return render(request, 'welcome/flowers.html', {'title':'FLOWERS'})
 
 def lectures(request):
-	return render(request, 'welcome/flowers.html', {'title':'LECTURES'})
+	return render(request, 'welcome/lectures.html', {'title':'LECTURES'})
 
 def fertilizers(request):
-	return render(request, 'welcome/flowers.html', {'title':'ORGANIC FERTILIZERS'})
+	return render(request, 'welcome/fertilizers.html', {'title':'ORGANIC FERTILIZERS'})
 
