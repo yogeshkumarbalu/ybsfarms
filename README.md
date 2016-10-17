@@ -9,6 +9,8 @@ Alagukavundanvalasu, Kangayam, India
 
 Proprieter :- Balasubramanian N
 
+Contact:- ybsfarms@yahoo.com
+
 #srlnb
 Shree Rajalakshmi Notebooks,
 
@@ -19,3 +21,5 @@ Printing press,
 Coimbatore, India
 
 Proprieter :- Balasubramanian N
+
+Contact:- shreerajalakshmi@yahoo.com
